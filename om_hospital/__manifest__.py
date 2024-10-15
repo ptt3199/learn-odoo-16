@@ -6,8 +6,9 @@
     "depends": ['base', "mail"],
     "data": [
         "security/ir.model.access.csv",
-        "views/patient.xml",
+        "data/sequence.xml",
         "views/menu.xml",
+        "views/patient.xml",
     ],
     "license": "AGPL-3",
     "installable": True,
